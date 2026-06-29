@@ -21,7 +21,7 @@ const Footer = () => {
                 <div className="footer-grid">
                     <div className="footer-info">
                         <Link to="/" className="nav-logo">
-                            <img src="/images/TSL Logo 4.jpg" alt="The Super Labs" />
+                            <img src="/images/TSL Logo 2.png" alt="The Super Labs" />
                             <span>The Super Labs</span>
                         </Link>
                         <p>

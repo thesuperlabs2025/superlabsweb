@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "deploy": "npm run deploy --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "npm start --prefix frontend"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  },
+  "dependencies": {
+    "axios": "^1.15.0",
+    "edge-tts-node": "^1.5.7",
+    "ffmpeg-static": "^5.3.0",
+    "google-tts-api": "^2.0.2"
+  }
+}
