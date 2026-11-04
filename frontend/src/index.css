@@ -182,24 +182,30 @@ h4 {
 .nav-logo {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 12px;
   text-decoration: none;
   font-family: var(--font-heading);
-  font-weight: 800;
-  font-size: 1.8rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: -0.01em;
   color: white;
+  transition: opacity 0.2s ease;
+}
+
+.nav-logo:hover {
+  opacity: 0.95;
 }
 
 .nav-logo img {
-  height: 64px;
-  width: auto;
-  border-radius: 12px;
-  object-fit: contain;
+  height: 40px;
+  width: 40px;
+  border-radius: 9px;
+  object-fit: cover;
   transition: transform 0.3s ease;
 }
 
 .nav-logo:hover img {
-  transform: scale(1.08);
+  transform: scale(1.05);
 }
 
 .nav-links {
@@ -305,11 +311,13 @@ h4 {
 
 @media (max-width: 768px) {
   .nav-logo img {
-    height: 50px;
+    height: 34px;
+    width: 34px;
+    border-radius: 8px;
   }
 
   .nav-logo span {
-    font-size: 1.4rem;
+    font-size: 1.15rem;
   }
 
   .nav-links {

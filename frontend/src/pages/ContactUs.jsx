@@ -89,7 +89,7 @@ const ContactUs = () => {
                                 </div>
                                 <div>
                                     <h4 style={{ marginBottom: '4px' }}>Email Us</h4>
-                                    <p style={{ margin: 0 }}>thesuperlabs2025@gmail.com</p>
+                                    <p style={{ margin: 0 }}>thesuperlabs2025@gmail.com, info@thesuperlabs.in</p>
                                 </div>
                             </div>
                             <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
@@ -102,12 +102,12 @@ const ContactUs = () => {
                                 </div>
                             </div>
                             <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
-                                <div style={{ height: '56px', width: '56px', background: 'rgba(236, 72, 153, 0.1)', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--accent)' }}>
+                                <div style={{ height: '56px', width: '56px', background: 'rgba(236, 72, 153, 0.1)', borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--accent)', flexShrink: 0 }}>
                                     <MapPin size={24} />
                                 </div>
                                 <div>
                                     <h4 style={{ marginBottom: '4px' }}>Visit Us</h4>
-                                    <p style={{ margin: 0 }}>Tirupur, Tamil Nadu</p>
+                                    <p style={{ margin: 0 }}>No: 7, Palayakkadu 2nd Street, KVR Nagar, Karuvampalayam, Mangalam Road, Tiruppur - 641 604</p>
                                 </div>
                             </div>
                         </div>

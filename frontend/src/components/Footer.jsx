@@ -21,7 +21,7 @@ const Footer = () => {
                 <div className="footer-grid">
                     <div className="footer-info">
                         <Link to="/" className="nav-logo">
-                            <img src="/images/TSL Logo 2.png" alt="The Super Labs" />
+                            <img src="/images/tsl-thunder.png" alt="The Super Labs" />
                             <span>The Super Labs</span>
                         </Link>
                         <p>
@@ -76,15 +76,15 @@ const Footer = () => {
                         <ul className="footer-links">
                             <li className="footer-link" style={{ display: 'flex', gap: '12px', color: 'var(--text-muted)' }}>
                                 <Mail size={18} className="accent-text" />
-                                <span>thesuperlabs2025@gmail.com</span>
+                                <span>thesuperlabs2025@gmail.com,info@thesuperlabs.in</span>
                             </li>
                             <li className="footer-link" style={{ display: 'flex', gap: '12px', color: 'var(--text-muted)' }}>
                                 <Phone size={18} className="accent-text" />
                                 <span>+91 89259 01430 </span>
                             </li>
-                            <li className="footer-link" style={{ display: 'flex', gap: '12px', color: 'var(--text-muted)' }}>
-                                <MapPin size={18} className="accent-text" />
-                                <span>Tiruppur, Tamil Nadu</span>
+                            <li className="footer-link" style={{ display: 'flex', gap: '12px', color: 'var(--text-muted)', alignItems: 'flex-start' }}>
+                                <MapPin size={18} className="accent-text" style={{ flexShrink: 0, marginTop: '3px' }} />
+                                <span>No: 7, Palayakkadu 2nd Street, KVR Nagar, Karuvampalayam, Mangalam Road, Tiruppur - 641 604</span>
                             </li>
                         </ul>
                     </div>
